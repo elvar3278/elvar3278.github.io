@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+h1,h2,h3,h4,p{
+    font-family:Xanh Mono;
+   } 
+
+h1,h2,h3,h4{
+    color: rgb(255, 255, 255);
+}
+body{
+    background: linear-gradient(rgb(0, 68, 255), rgb(0, 251, 255)) fixed;
+    margin: 0%;
+
+    
+}
+p{
+    color: rgb(71, 9, 52)
+}
+
+
+
+.arrow{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    font-size: 240%;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(89, 255, 0);
+   }
+
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.border2{
+    border: 2px solid;
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.center2{
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+
+.container3{
+    padding: 30px 10%;
+    align-items: center;
+    background-color: rgb(63, 143, 26) ;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    display: flex;
+}
+
+.stuff{
+    align-items: center;
+}
+
+
+@media screen and (min-width:60em) {
+     
+    .container3{
+        padding: 30px 10%;
+        align-items: center;
+        background-color: rgb(8, 148, 15) ;
+        color: rgb(37, 35, 35);
+        justify-content: space-around;
+        display: flex;
+    }
+
+
+    
+
+}
